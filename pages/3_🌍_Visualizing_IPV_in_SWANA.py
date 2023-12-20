@@ -11,6 +11,12 @@ import gspread
 from google.auth import default
 from oauth2client.client import GoogleCredentials
 
+st.set_page_config(page_title="Visualizing IPV in SWANA", page_icon="🌍")
+
+st.markdown("# 🌍 Visualizing IPV Prevalance in SWANA")
+st.sidebar.header("Visualizing IPV in SWANA")
+
+
 # Set up Google credentials
 # creds, _ = default(scopes=['https://www.googleapis.com/auth/spreadsheets'])
 # gc = gspread.authorize(creds)
@@ -48,8 +54,6 @@ df[df.columns[3]] = df[df.columns[3]].astype(float) # percent change
 df = df.rename(columns={df.columns[2]:"Value of IPV metric over time",
                         df.columns[3]:"Percent change in IPV metric over time"})
 
-# Page title
-st.title("Visualizing Intimate Partner Violence in South West Asia and North Africa (SWANA)")
 
 # Subtitle
 data_description = "IPV Metric: Age-standardised prevalence of ever-partnered women aged 15 years and older who experienced physical or sexual violence by a current or former intimate partner in the last 12 months (%)"

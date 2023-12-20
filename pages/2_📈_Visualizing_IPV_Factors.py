@@ -5,6 +5,11 @@ import geopandas as gpd
 import streamlit as st
 import textwrap
 
+st.set_page_config(page_title="Visualizing IPV Risk Factors", page_icon="📈")
+
+st.title("📈 Visualizing IPV Risk Factors")
+st.sidebar.header("Visualizing IPV Risk Factors")
+
 # Read data
 context_df = pd.read_csv("data/worldbank_gender.csv")  # Data providing context to IPV
 
@@ -92,8 +97,9 @@ def choropleth(df, series, color_field, discrete_color_map=None):
     return fig
 
 # Prepare page
-st.title("Context for Intimate Partner Violence (IPV) in South West Asia and North Africa (SWANA)")
-st.write("This page contains data on factors that are likely to affect a woman's family status and independence, as well as her opportunities to survive and/or escape a situation of domestic abuse")
+st.write("This page contains data on factors that are likely to affect a woman's family status and independence, as well as her opportunities to survive and/or escape a situation of domestic abuse.")
+
+st.write("Note that some of this data is sparse, may have missing values, or is not available for all years, which will affect the visualizations.")
 
 # Loop over all categories and data series
 for category_name, series_list in data_categories.items():

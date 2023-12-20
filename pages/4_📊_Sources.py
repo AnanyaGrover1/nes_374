@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(page_title="Sources", page_icon="📊")
+
+st.markdown("# 📊 Sources")
+st.sidebar.header("Sources")
+
+
 def main():
     st.markdown("""
         **Data sources:**
