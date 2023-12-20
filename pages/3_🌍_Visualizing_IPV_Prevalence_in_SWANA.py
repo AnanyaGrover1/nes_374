@@ -13,8 +13,8 @@ from oauth2client.client import GoogleCredentials
 
 st.set_page_config(page_title="Visualizing IPV in SWANA", page_icon="🌍")
 
-st.markdown("# 🌍 Visualizing IPV Prevalance in SWANA")
-st.sidebar.header("Visualizing IPV in SWANA")
+st.markdown("# 🌍 Visualizing IPV Prevalence in SWANA")
+st.sidebar.header("Visualizing IPV Prevalence in SWANA")
 
 
 # Set up Google credentials

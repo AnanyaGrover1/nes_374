@@ -20,7 +20,7 @@ def main():
 
     st.markdown("**Website description:**")
     st.write("""
-        For ease of user navigation, this website is broken down into multiple pages. We created a homepage (this page), a page for visualizing the data on intimate partner violence, a page for visualizing data relevant to victims of intimate partner violence (broken down into the sub-categories of 'Laws and legislations', 'Women's experiences', 'Women's beliefs', and 'Women's decision making freedom'), a page explaining the institution of bayt al-ta’ ah (the house of obedience), as well as a page for all of our sources.
+        For ease of user navigation, this website is broken down into multiple pages. We created a homepage (this page), a page for visualizing the data on intimate partner violence, a page for visualizing contextual data that may increase the risk of intimate partner violence (broken down into the sub-categories of 'Laws and legislations', 'Women's experiences', 'Women's beliefs', and 'Women's decision making freedom'), a page explaining the institution of bayt al-ta’ ah (the house of obedience), as well as a page for all of our sources.
     """)
 
     st.markdown("**Acknowledgements:**")
