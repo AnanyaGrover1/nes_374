@@ -7,7 +7,7 @@ def main():
 
     # Replace 'URL_TO_CONTEXT_PAGE' with the actual URL path you want to link to
     st.markdown("""
-        For more context on factors relevant to female victims of Intimate Partner Violence, click on this link to [Visualize context of Intimate Partner Violence in the SWANA region](URL_TO_CONTEXT_PAGE).
+        For more context on factors relevant to female victims of Intimate Partner Violence, click on this link to [Visualize context of Intimate Partner Violence in the SWANA region](pages/1_Contextualizing_IPV.py).
     """)
 
     # Use the actual path to the image, and ensure the image is stored in your app's directory or is hosted online.
