@@ -101,7 +101,7 @@ st.write("This page contains data on factors that are likely to affect a woman's
 
 st.write("Note that some of this data is sparse, may have missing values, or is not available for all years, which will affect the visualizations.")
 
-st.write("Over time, we can observe from the map that women now have greater rights in more countries in a few areas, such as having the ability travel out of their homes in the same away as a man, not being legally bound to obey their husbands, and being able to be the head of the household, but other restrictions such as the ability to get a divorce remain the same.")
+st.write("Over time, we can observe from the map that women now have greater rights in more countries, such as having the ability travel out of their homes in the same away as a man, not being legally bound to obey their husbands, and being able to be the head of the household, but other restrictions such as the ability to get a divorce remain the same.")
 
 # Loop over all categories and data series
 for category_name, series_list in data_categories.items():
