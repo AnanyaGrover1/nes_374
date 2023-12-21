@@ -7,7 +7,7 @@ st.sidebar.header("Legal Background")
 
 def main():
     st.write("""
-        The institution of bayt al-ta’ ah (the house of obedience) was an institution that enabled a husband to obtain a judge's order to forcibly return a wife who had left home without his permission. Such a wife would be legally defined as nashizah (disobedient/rebellious) and lose her eligibility to obtain a judicial divorce. This law has severe consequences considering the dire circumstances under which a woman with little financial independence would have tolerated before risking arrest to escape a likely abusive husband, only to lose her only legal pathway to divorcing said husband. The Egyptian Feminist Union (EFU) fought for this institution to be abolished in 1929, but it was not abolished until 38 years later in 1967.
+        The institution of bayt al-ta’ ah (the house of obedience) was an institution that enabled a husband to obtain a judge's order to forcibly return a wife who had left home without his permission. Such a wife would be legally defined as nashizah (disobedient/rebellious) and lose her eligibility to obtain a judicial divorce. This law has severe consequences considering the dire circumstances under which a woman with little financial independence would have escaped a likely abusive husband, only to lose her only legal pathway to divorcing said husband. In Egypt, the Egyptian Feminist Union (EFU) fought for this institution to be abolished in 1929, but it was not abolished until 38 years later in 1967.
     """)
 
     # Replace 'URL_TO_CONTEXT_PAGE' with the actual URL path you want to link to
