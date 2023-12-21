@@ -11,7 +11,7 @@ def main():
     """)
 
     st.write("""
-Bayt al-ta’ ah, historically prevalent in parts of the SWANA region, is a vivid illustration of the systemic challenges women faced and continue to face, which increase the risk and harm from intimate partner violence.
+Bayt al-ta’ ah, historically practiced in parts of the SWANA region, is a vivid illustration of the systemic challenges women faced and continue to face, which increase the risk and harm from intimate partner violence.
 The prolonged existence of such an institution highlights the resistance to women’s emancipation and the glacial pace of reform in the face of embedded gender inequalities. At the same time, the struggle of the EFU and the eventual removal of bayt al-ta’ ah is emblematic of the broader fight and progress toward women's liberation.
 In the context of this project, visualizing the data on current laws and attitudes governing women's lives as well as the prevalence of IPV underlines the urgency of ongoing legal reform, social support structures, and educational efforts to mitigate and ultimately eradicate intimate partner violence, leading us to a future where women's rights and safety are unassailable.""")
 
